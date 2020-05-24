@@ -6,13 +6,15 @@ import { MedicosComponent } from './intermediate/spys/medicos.component';
 import { MedicoComponent } from './intermediate2/medico/medico.component';
 import { MedicoService } from './intermediate2/medico/medico.service';
 import { HospitalComponent } from './intermediate2/hospital/hospital.component';
+import { IncrementadorComponent } from './intermediate2/incrementador/incrementador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MedicosComponent,
     MedicoComponent,
-    HospitalComponent
+    HospitalComponent,
+    IncrementadorComponent
   ],
   imports: [
     BrowserModule
